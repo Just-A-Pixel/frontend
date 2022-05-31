@@ -1,0 +1,56 @@
+.section {
+    /* position: relative; */
+    /* margin-top: 20px; */
+    padding-left: 20px;
+
+}
+
+.section>h4 {
+    font-size: 4em;
+    font-weight: 400;
+    padding: 0%;
+    margin: 0;
+}
+
+.section>h1 {
+    font-size: 120px;
+    font-weight: 700px;
+    color: #007BFF;
+    padding: 0;
+    margin: 0;
+}
+
+.section>p {
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 0;
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 1328px) {
+    .section>h4 {
+        font-size: 3.5em;
+    }
+
+    .section>h1 {
+        font-size: 5em;
+    }
+
+    .section>p {}
+}
+
+
+@media only screen and (max-width: 625px) {
+    .section>h4 {
+        font-size: 2.0em;
+    }
+
+    .section > h1 {
+        font-size: 3em;
+    }
+
+    .section > p {
+        font-size: 20px;
+    }
+}
