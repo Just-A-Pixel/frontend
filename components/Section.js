@@ -29,8 +29,8 @@ const Section = () => {
           <div className='font-bold leading-10 lg:leading-[82px] text-3xl lg:text-6xl mt-8 text-center font-[poppins]'>
             a super credit-cool community
           </div>
-          <div className='leading-5 lg:leading-10 mt-6  text-sm lg:text-3xl text-center mx-[20vw] lg:mx-0 font-[poppins]'>
-            It's super-exclusive, super-fun and super-helpful.
+          <div className='leading-5 lg:leading-10 mt-6  text-sm lg:text-3xl text-center mx-[20vw] lg:mx-0 font-[poppins] '>
+            It is super-exclusive, super-fun and super-helpful.
           </div>
           <div className='relative mx-auto w-72 -mt-4 lg:mt-0 h-44  '>
             <Image src='/discord.svg' alt='discord' layout='fill' />
